@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  gap: 30px;
+  text-align: center;
+}
+
+.btns {
+  flex-direction: row;
+  gap: 20px;
+}
+.hour,
+.sec,
+.min {
+  font-size: 50px;
+}
+
+.abc {
+  font-size: 40px;
+}
+
+.btn {
+  box-sizing: border-box;
+  border: none;
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#btnstart {
+  background-color: #ff6263;
+}
+
+#btnstop {
+  background-color: #23c4ed;
+}
+
+#btnreset {
+  background-color: #e6425e;
+}
